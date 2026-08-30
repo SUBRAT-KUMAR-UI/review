@@ -1,9 +1,14 @@
 // components
-import React from "react"
+import React from "react";
+import Card from "./Components/Card";
+
 function App(){
   return (
-    <h1>Hello World</h1>
-  )
-}
+    <div>
+      <Card />
+      
 
-export default App
+    </div>
+  );
+}
+export default App;
